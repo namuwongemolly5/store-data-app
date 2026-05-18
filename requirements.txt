@@ -2,3 +2,5 @@ streamlit
 pandas
 pytesseract
 pillow
+gspread
+google-auth
