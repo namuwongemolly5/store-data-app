@@ -15,7 +15,7 @@ client = gspread.authorize(creds)
 
 # --- Connect to Sheet ---
 SHEET_NAME = "TLM Store Inventory"
-worksheet = client.open(SHEET_NAME).worksheet("TLM Store Iventory")  # Note: matches your sheet tab name
+worksheet = client.open(SHEET_NAME).worksheet("TLM Store Inventory")  # Note: matches your sheet tab name
 
 # --- Form to Add Data ---
 with st.form("add_item_form"):
